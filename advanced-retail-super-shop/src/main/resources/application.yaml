@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/supershop
+    username: root
+    password: Ayesh@013
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
